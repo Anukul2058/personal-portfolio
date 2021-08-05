@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    background-color: white;
+    /* height: 460vh; */
+    /* color: white; */
+
+}
+nav{
+    width: 100%;
+    height: 10vh;
+}
+#ap{
+    position: fixed ;
+    top: 0;
+    right: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.title{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1vw;
+    padding: 1vw;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.about{
+    margin-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 45vh;
+    /* background-color: violet; */
+    width: 35%;
+    margin-left: 18vw;
+    
+
+}
+#bout{
+    width: 25vw;
+}
+.intro{
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 2vh;
+
+}
+.title1{
+    margin: 2vh;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 4vw;
+    font-weight: bolder;
+
+}
+.dis{
+    margin: 2vh;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    font-weight: bolder 
+}
+.picture{
+    background:url('picture.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 30vw;
+    margin-top: 10vh;
+    clip-path: ellipse(25% 40% at 50% 50%);
+    
+    
+
+}
+button{
+    width: 15vw;
+    height: 5vw;
+    background-color: rgb(75, 75, 233);
+    margin: 2vh;
+    border-radius: 5%;
+    border: none;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.container2{
+    margin-top: 20vw;
+    
+
+}
+
+.my-introduction{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-top : 4vh;
+    z-index: 10;
+}
+.content1{
+    width: 30%;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-top : 4vh;
+    margin-left: 18vw;
+}
+.my-introduction2{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2vw;
+    margin-top : 4vh;
+    z-index: 10;
+}
+#first{
+    float: right;
+    margin-top: -20vw;
+    width: 30vw;
+}
+.number-bar{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vw;
+    height: 10vw;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+.num1{
+    height: 5vw;
+    width: 10vw;
+    margin-left: 5vw;
+
+}
+.num-t{
+    font-size: 5vw;
+}
+.num-d{
+    font-size: 1.5vw;
+}
+.container3{
+    margin-top: 20vw;
+}
+.container3a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+
+.skill-bar{
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+#skill{
+    width: 25vw;
+}
+#skills{
+    width: 50vw;
+    
+}
+.projects{
+    margin-top: 20vw;
+}
+#projects{
+    width: 25vw;
+}
+.project-area{
+    width: 90%;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #46515f;
+    margin: auto;
+    color: white;
+    margin-top: 5vw;
+    border-radius: 30px;
+
+}
+
+.project-head{
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+
+}
+.project-module{
+    color: cadetblue;
+    font-size: 1.5vw;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+
+
+
+}
+.project-dis{
+    font-size: 1.5vw;
+    width: 30%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* height: 2vw; */
+    align-self: center;
+
+
+}
+#github{
+    font-size: 5vw;
+    align-self: center;
+    color: white;
+}
+.contact{
+    margin-top: 30vw;
+    
+}
+#contact{
+    width: 25vw;
+}
+.contact-text{
+    margin-top: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 60%;
+}
+.contact-box{
+    margin-top: 5vw;
+    width: 75%;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#email-btn{
+    margin-left: 1vw;
+}
+#contact-picture{
+    width: 50%;
+    height: 30vw;
+    margin-top: 13vw;
+}
+.contact-section{
+    display: flex;
+    flex-direction: row;
+}
+.fbox1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.fbox2{
+    display: flex;
+    flex-direction: row;
+    width: 83%;
+    /* justify-content: space-between; */
+}
+
+.contact-area .fas{
+    font-size: 4vw;
+    margin: 1vw;
+}
+.contact-area .fab{
+    font-size: 4vw;
+    margin: 1vw;
+}
